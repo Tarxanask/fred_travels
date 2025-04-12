@@ -580,10 +580,12 @@ header.header-sm{
     background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
 }
-.gallery-item img{
+.gallery-item img {
     -webkit-transition: var(--trans);
     -o-transition: var(--trans);
     transition: var(--trans);
+    border-radius: 0.5rem; /* Add a small border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 .gallery-item:hover img{
     -webkit-transform: scale(1.2);
